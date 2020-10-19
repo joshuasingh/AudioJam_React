@@ -1,0 +1,36 @@
+ {
+  "expo": {
+    "name": "Audio_Jam",
+    "slug": "Audio_Jam",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "sdkVersion":"37.0.0",
+    "android":{
+       "package":"com.AudioJam.final",
+       "permissions":["CAMERA","RECORD_AUDIO"]
+      
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier":"com.AudioJam.final",
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}
